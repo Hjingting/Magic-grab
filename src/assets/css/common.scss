@@ -1,0 +1,54 @@
+//字体阴影设置
+@mixin textBorder($radius, $color,$top:auto,$left:auto) {
+  position: absolute;
+  z-index:1;
+  -webkit-text-stroke: $radius $color;
+  top: $top;
+  left: $left;
+}
+
+.blueTextBorder {
+  @include  textBorder(5px,#51A2D0,auto,98px)
+}
+
+.blueTextBorderSmall {
+  @include  textBorder(4px,#51A2D0,auto,46.5px)
+}
+
+.yellowTextBorder {
+  @include textBorder(5px, #EE9F35,auto,99.8px)
+}
+
+.yellowTextBorder-L {
+  @include textBorder(4px, #EE9F35,auto,64px)
+}
+
+.greyTextBorder {
+  @include textBorder(5px,#9F9F9F,0.25rem,64.8px)
+}
+
+.brownTextBorder {
+  @include textBorder(5px,#AC4B1A,auto,0);
+  width: 90px;
+  height: 22px;
+}
+
+.yellowText {
+  color: #f3de6c;
+}
+
+.purpleText {
+  color: #e87af8;
+}
+
+.greenText {
+  color: #58ff7f;
+}
+
+.blueText {
+  color: #42B4BC;
+}
+
+.centerText {
+  text-align: center;
+}

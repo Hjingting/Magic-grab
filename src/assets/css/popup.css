@@ -1,0 +1,461 @@
+.mask {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.detail {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #c0d7f5;
+}
+
+.ruleBg {
+    background: url("../../assets/img/activeBg.png");
+    background-size: cover;
+    width: 666px;
+    height: 775px;
+}
+
+.commit {
+    background: url(../../assets/img/commit.png);
+    width: 143px;
+    height: 38px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.ruleContent {
+    width: 552px;
+    height: 582px;
+    font-family: MicrosoftYaHei;
+    font-size: 24px;
+    margin: 139px auto 0 auto;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #b4ceef;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.bottomShadow {
+    width: 552px;
+    height: 100px;
+    position: absolute;
+    top: 635px;
+    background-color: #31517A;
+    opacity: 0.5;
+    margin: 0 auto;
+}
+
+.warehouseBg {
+    background: url("../../assets/img/warehouseBg.png");
+    background-size: cover;
+    width: 665px;
+    height: 905px;
+    margin: 0 auto;
+}
+
+.close {
+    background: url("../../assets/img/close.png");
+    width: 76px;
+    height: 76px;
+    background-size: cover;
+    position: absolute;
+    top: -80px;
+    right: 30px;
+}
+
+.commonClose {
+    right: 30px;
+    margin-top: 60px;
+}
+
+.ruleContent p {
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.warehouseContent {
+    width: 625px;
+    height: 793px;
+    margin: 130px auto 0 auto;
+    color: #c0d7f5;
+}
+
+.warehouseContent div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableHead {
+    font-family: MicrosoftYaHei;
+    display: table;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 31px;
+    color: #c0d7f5;
+    width: 540px;
+    margin-bottom: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.tableHead span {
+    display: table-cell;
+    text-align: center;
+}
+
+.row {
+    display: table;
+    width: 540px;
+    height: 75px;
+    box-shadow: 0 9px 25px 7px rgba(30, 62, 103, 0.14);
+    border-radius: 36px;
+    border: solid 2px #97bae6;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    table-layout: fixed;
+}
+
+.row>span {
+    display: table-cell;
+    font-family: MicrosoftYaHei;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.column2 {
+    text-align: center;
+    padding-right: 10px;
+}
+
+.column3 {
+    text-align: right;
+    width: 160px;
+}
+
+.rewardPreview {
+    background: url("../../assets/img/rewardPreviewBg.png");
+    width: 665px;
+    height: 626px;
+    background-size: cover;
+}
+
+.rewardContent {
+    width: 487px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rewardContent div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.unlock {
+    width: 487px;
+    height: 92px;
+    background-color: #5785bf;
+    box-shadow: 0 9px 25px 7px rgba(30, 62, 103, 0.14);
+    border-radius: 45px;
+    border: solid 2px #97bae6;
+    margin-top: 134px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+.unlock>span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lock {
+    background: url("../../assets/img/lock.png");
+    width: 28px;
+    height: 40px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 13px;
+}
+
+.lockText {
+    font-family: MicrosoftYaHei;
+    font-size: 28px;
+    font-weight: bold;
+    color: #c0d7f5;
+    height: 28px;
+}
+
+.arrowDown {
+    background: url("../../assets/img/arrowDown.png");
+    width: 30px;
+    height: 18px;
+    background-size: cover;
+    margin-top: 27px;
+    margin-bottom: 40px;
+}
+
+.rewardItem {
+    width: 425px;
+    height: 232px;
+    border-radius: 30px;
+    border: solid 3px #FFE8A3;
+}
+
+.rewardText {
+    font-family: MicrosoftYaHei;
+    font-size: 32px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #ffe8a3;
+    padding-bottom: 17px;
+    padding-top: 9px;
+    box-sizing: border-box;
+    color: #ffe8a3;
+    margin-bottom: 30px;
+}
+
+.previewTicket {
+    width: 314px;
+    height: 99px;
+}
+
+.X1 {
+    background: url("../../assets/img/X1.png");
+    width: 33px;
+    height: 30px;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 34px;
+}
+
+.numBorder {
+    -webkit-text-stroke: 5px #EA7E39;
+    position: absolute;
+    z-index: 1;
+}
+
+.commonPopBg {
+    background: url("../../assets/img/commonBg.png");
+    width: 665px;
+    height: 492px;
+    background-size: cover;
+    color: #b4ceef;
+    font-size: 28px;
+}
+
+.info {
+    margin-top: 130px;
+    margin-bottom: 85px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.twoBtns {
+    margin:0 auto 32px auto;
+    width: 567px;
+}
+
+.confirmBorder {
+    top: 26px;
+    -webkit-text-stroke: 5px #ED9E34;
+    position: absolute;
+    z-index: 1;
+}
+
+.centerBtn {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.confirm {
+    font-family: FZY4JW;
+    font-size: 36px;
+    color: #fffdf7;
+    position: relative;
+    z-index: 2;
+}
+
+.addressBg {
+    background: url("../../assets/img/addressBg.png");
+    width: 665px;
+    height: 824px;
+    background-size: cover;
+}
+
+.addressContent {
+    width: 463px;
+    height: 712px;
+    font-size: 26px;
+    margin: 135px auto 0 auto;
+    font-family: "Microsoft YaHei";
+}
+
+.addressContent input {
+    font-size: 26px;
+}
+
+input,
+.addressContent textarea {
+    width: 350px;
+    height: 68px;
+    background-color: #1a3558;
+    border-radius: 18px;
+    border: 0;
+    padding-left: 32px;
+    box-sizing: border-box;
+    color: #5d81b0;
+}
+
+.warehouseRow {
+    margin-bottom: 21px;
+}
+
+.detailAddress {
+    padding-top: 7px;
+}
+
+.detailAddress textarea {
+    width: 466px;
+    height: 168px;
+    margin-top: 19px;
+    margin-bottom: 43px;
+    padding: 20px 20px 20px 20px;
+    resize: none;
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.QQBg {
+    background: url("../../assets/img/QQBg.png");
+    width: 665px;
+    height: 594px;
+    background-size: cover;
+}
+
+.QQNum {
+    font-size: 26px;
+    width: 467px;
+    margin: 174px auto 0 auto;
+}
+
+.QQNum div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.QQRow {
+    margin-bottom: 119px;
+    width: 457px;
+}
+
+.QQRow input {
+    font-size: 26px;
+}
+
+/*场次*/
+.sessions {
+    width: 518px;
+    height: 71px;
+    border-radius: 36px;
+    border: solid 2px #97bae6;
+    margin: 0 auto 15px auto;
+    padding: 20px 0 20px 45px;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.primary {
+    background-color: #5785bf;
+    box-shadow: 0px 9px 25px 7px rgba(30, 62, 103, 0.14);
+    margin-top: 75px;
+}
+
+.intermediate {
+    background-color: #5d9ff0;
+    box-shadow: 0 9px 25px 7px rgba(30, 62, 103, 0.14);
+    color: white;
+}
+
+.senior {
+    background-image: linear-gradient(-40deg, #6962ff 0%, #f889ff 100%);
+    box-shadow: 0px 9px 25px 7px rgba(30, 62, 103, 0.14);
+    border: solid 2px #ee9bff;
+    margin-bottom: 45px;
+    color: white;
+}
+
+.sessionLeft {
+    padding-right: 39px;
+    border-right: 2px solid #98bae6;
+    height: 73px;
+}
+
+.sessionRight {
+    padding-left: 65px;
+}
+
+.materialBg {
+    background: url("../../assets/img/materialInitBg.png");
+    width: 665px;
+    height: 412px;
+    background-size: cover;
+    margin: 0 auto;
+    font-size: 28px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.smallFont {
+    font-size: 20px;
+}
+
+.littleFont {
+    font-size: 22px;
+}
+
+.notEnough {
+    margin: 132px auto 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.extraTop {
+    left: 50%;
+    top: -8%;
+    transform: translate(-50%, -50%);
+}
+
+.QQMargin {
+    margin-bottom: 35px;
+    width: 457px;
+    position: relative
+}

@@ -1,0 +1,8 @@
+import './assets/css/index.css'
+import './assets/css/popup.css'
+import './assets/css/common.scss'
+import './assets/css/fonts/FZY4JW.css'
+import './js/init'
+import './js/index'
+import './js/popup'
+import './js/user'
